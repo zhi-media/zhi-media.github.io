@@ -1,0 +1,25 @@
+/*导航的原始固顶样式*/
+.header {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color: #fff;
+    line-height: 50px;
+    font-size: 24px;
+}
+/*导航常规CSS*/
+.headroom {
+    top: 0px;
+    /*延时*/
+    transition: all 0.25s;
+}
+/*导航下滚CSS*/
+.headroom--unpinned {
+    top: -100px;
+}
+/*导航上滚CSS*/
+.headroom--pinned {
+    top: 0px;
+}
