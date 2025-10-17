@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ZhiMedia.Client",
   "resources": {
-    "hash": "sha256-CHwm7epr8xAAXbD7yR96wWMOtLBKuXf5ukkQVHckx9k=",
+    "hash": "sha256-UI7gEiAXecUEBY0EyzG87s+y4/J5yQmhfmuG0/qHukI=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-OxMDathGuhnxwTigk3X9QgvDrctXGZyS/UZJ8941GLU="
     },
@@ -9,7 +9,7 @@
       "dotnet.runtime.js": "sha256-aLf0XK8bqX83FXyXydFPTC1FOTq3PaeGDyoDn3uz194="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-snCAMtZ4cK27MafJ25OjZoQBfbUFzGN5ymIbdjOpOTk="
+      "dotnet.native.wasm": "sha256-6t+4hWbPwNjW4GEq0a3IG9ZIgX1HdbrwXB/SRn2ZlE4="
     },
     "coreAssembly": {},
     "assembly": {
@@ -105,13 +105,13 @@
       "System.wasm": "sha256-PUc71Jd5nvz5F65sAd0C3ZORcUzYK2JSfSDmE+Drn0Q=",
       "netstandard.wasm": "sha256-WQBcSHAWRoq50wiedaZ/nWepdi0XnSuYBBoaUIoCZ5w=",
       "System.Private.CoreLib.wasm": "sha256-G4ZBwaA7sSUO3kIvIuTElzOSwB3E/4zlfd1NHz0dthw=",
-      "ZhiMedia.Core.wasm": "sha256-XcU8oUxf/1a860ClRp2Tv6PiW1QFB4lg7dcH2opkmiU=",
-      "ZhiMedia.Driver.wasm": "sha256-fyd+c0ikNTL9je0O/b4/zjMPoWyboS86gTpuUC4CmjE=",
-      "ZhiMedia.Integration.wasm": "sha256-KAixthSCX1mWDf0EDw20qgRPRqzy5AqNCEdNQFvCjtg=",
-      "ZhiMedia.Library.wasm": "sha256-UPBAwSGLvVWx2Dj9XVPv0AzB1LCMQfJgl4ywZLP+ZW0=",
-      "ZhiMedia.UI.wasm": "sha256-FyOTXKABOR3g4FaSEDbSwM1LsqVU5/OskH2fOyrXTtc=",
-      "ZhiMedia.Web.wasm": "sha256-62rtvThWHD/txWvx6+kWLPa5cefXHKIG0b4wcrfmBRs=",
-      "ZhiMedia.Client.wasm": "sha256-7WKKFUTkzlSEAbZoqOfk/eg2jNdhHe/EXEpPhqDfMQU="
+      "ZhiMedia.Core.wasm": "sha256-vprb2fSeKGAsxM2i8UHYpg4+sQj6UHPcilKSulDc2mQ=",
+      "ZhiMedia.Driver.wasm": "sha256-EkOR/NBfXZEeEdLovOEGmMq2RaTUS8ZPR8Df7ZPZ810=",
+      "ZhiMedia.Integration.wasm": "sha256-bf+yS4v7SbVikRxx4M39Q9bE36Vg3S+AmPaKdQGDhWY=",
+      "ZhiMedia.Library.wasm": "sha256-fbLtaLZP9h8+sxSdgHjWXMVK3wofjlhz2TEwujK1N1A=",
+      "ZhiMedia.UI.wasm": "sha256-qGxelPdobXUMqVWTl7h4luM48koUJyeY+SyaaA5Y93g=",
+      "ZhiMedia.Web.wasm": "sha256-nVfYg2a61iKEGzBtxsvULaUI5F8Zn6bre8sVgnKDgz8=",
+      "ZhiMedia.Client.wasm": "sha256-aHrRY0/p5RO1PiB7y+tTayh2zIfZcUm0fACgt2EdLzI="
     }
   },
   "cacheBootResources": true,
