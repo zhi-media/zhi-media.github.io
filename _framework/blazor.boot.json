@@ -1,15 +1,15 @@
 {
   "mainAssemblyName": "ZhiMedia.Client",
   "resources": {
-    "hash": "sha256-CkglLh3CCGozm08k8ESL+DXOmibMzW/68vg4bhPweTk=",
+    "hash": "sha256-8AF8Tna9rVeXzynGjVSai1EfH0R2bzaYngK2tuzsb8k=",
     "jsModuleNative": {
-      "dotnet.native.js": "sha256-0LGPpmZMU2sd4nnQPM/50oOqkVZBaxXvfWQ4R0ENOYY="
+      "dotnet.native.js": "sha256-odGMJTnlR2A8JT27HR4ajBKCoajAIZEbgpAb+BfuQRw="
     },
     "jsModuleRuntime": {
       "dotnet.runtime.js": "sha256-6bV/iAemowb59rmItegP8VsxwWpWUNyMb0Q76Fvvsjo="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-hTpxuup5eeOjtfb5VRfcavqy0WUrrrsYXhLVYs1HtR0="
+      "dotnet.native.wasm": "sha256-M+6U1Ylk3ilQk3BBgS7+CifsogIzOwrZUd9phjPbLtY="
     },
     "coreAssembly": {},
     "assembly": {
@@ -96,12 +96,12 @@
       "System.wasm": "sha256-I4hhyMuUoHdrzDopL9tlnkL/Skg+0OO+gmkOXNT3dcg=",
       "netstandard.wasm": "sha256-tReMbzBYknjJwk1qgHUCNmWtKZLMdkREQmhaAZGntC4=",
       "System.Private.CoreLib.wasm": "sha256-zeJj1k4tlVs+RPp+3HP3xQUa5IPwW7edfsuTSbmQi7s=",
-      "ZhiMedia.Core.wasm": "sha256-5cTdUX8Sk7cVIzLMBLzZNRZlbh4qUFqqe2gl7PZAWP4=",
-      "ZhiMedia.Infrastructure.wasm": "sha256-xmWTmJKWuEwBdXv10l+tOgNpa9QQB+ynKnSUnjgX3vU=",
-      "ZhiMedia.Shared.wasm": "sha256-v2HkOriNnannOKqBeZc9lsXofKwuKOI5q7C8RagLSLA=",
-      "ZhiMedia.UI.wasm": "sha256-I5nHyf2GYqR3NwfeX2WbQHt4UuT6AkmlBa5A2VZsAY0=",
-      "ZhiMedia.Web.wasm": "sha256-XqDxFibQKSte7yXXwaHrJa8b9Lq5zKNzbsbojp/+kZ4=",
-      "ZhiMedia.Client.wasm": "sha256-venv4xZH/sVJwS/Drr07FOD53BJeJJ6iHe9H6EdRELA="
+      "ZhiMedia.Application.wasm": "sha256-VcvAME7e0teMA/7aeMAnthzzboy/Px4+6/MIeqDQ/nw=",
+      "ZhiMedia.Infrastructure.wasm": "sha256-GRt8L62YAEuaVHTHcjUV7sIGLDqIsGVIaeIC9ljYPqE=",
+      "ZhiMedia.Shared.wasm": "sha256-PPXvbQXOL+pr5C4CozJRiOi1sJjagRROZMb4m4ub+v0=",
+      "ZhiMedia.UI.wasm": "sha256-6XZNlv2oLDrP3NCoMY4J7EeLraAqGAyqgsT3w0tWnxo=",
+      "ZhiMedia.Web.wasm": "sha256-BpKmyu3vd2Snvvhaj9VkowN/iTl6WXN+fUb9ooayqYI=",
+      "ZhiMedia.Client.wasm": "sha256-GpTHAbwpBEDXtQIorQukrnXyDXhkPikZo9kIQJyzHVg="
     }
   },
   "cacheBootResources": true,
