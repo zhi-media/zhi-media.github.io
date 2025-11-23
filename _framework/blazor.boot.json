@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ZhiMedia.Client",
   "resources": {
-    "hash": "sha256-8AF8Tna9rVeXzynGjVSai1EfH0R2bzaYngK2tuzsb8k=",
+    "hash": "sha256-ZBGquyTIThriXDII9jzuewGa7GvnC3X7LvhBr8SENDE=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-odGMJTnlR2A8JT27HR4ajBKCoajAIZEbgpAb+BfuQRw="
     },
@@ -9,7 +9,7 @@
       "dotnet.runtime.js": "sha256-6bV/iAemowb59rmItegP8VsxwWpWUNyMb0Q76Fvvsjo="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-M+6U1Ylk3ilQk3BBgS7+CifsogIzOwrZUd9phjPbLtY="
+      "dotnet.native.wasm": "sha256-cszZlTHjau31xk4Ob876iGgiFcDq8G7oHJAsF0SHijI="
     },
     "coreAssembly": {},
     "assembly": {
@@ -96,12 +96,12 @@
       "System.wasm": "sha256-I4hhyMuUoHdrzDopL9tlnkL/Skg+0OO+gmkOXNT3dcg=",
       "netstandard.wasm": "sha256-tReMbzBYknjJwk1qgHUCNmWtKZLMdkREQmhaAZGntC4=",
       "System.Private.CoreLib.wasm": "sha256-zeJj1k4tlVs+RPp+3HP3xQUa5IPwW7edfsuTSbmQi7s=",
-      "ZhiMedia.Application.wasm": "sha256-VcvAME7e0teMA/7aeMAnthzzboy/Px4+6/MIeqDQ/nw=",
-      "ZhiMedia.Infrastructure.wasm": "sha256-GRt8L62YAEuaVHTHcjUV7sIGLDqIsGVIaeIC9ljYPqE=",
-      "ZhiMedia.Shared.wasm": "sha256-PPXvbQXOL+pr5C4CozJRiOi1sJjagRROZMb4m4ub+v0=",
-      "ZhiMedia.UI.wasm": "sha256-6XZNlv2oLDrP3NCoMY4J7EeLraAqGAyqgsT3w0tWnxo=",
-      "ZhiMedia.Web.wasm": "sha256-BpKmyu3vd2Snvvhaj9VkowN/iTl6WXN+fUb9ooayqYI=",
-      "ZhiMedia.Client.wasm": "sha256-GpTHAbwpBEDXtQIorQukrnXyDXhkPikZo9kIQJyzHVg="
+      "ZhiMedia.Application.wasm": "sha256-qTZ/BdvI0exUa8SePfS/HasRBm2j8WqR89hg5VAI85c=",
+      "ZhiMedia.Infrastructure.wasm": "sha256-C/k7Rb3euDg5gHEMqRyR4FBY4jnWiaejT7644RGlJ5M=",
+      "ZhiMedia.Shared.wasm": "sha256-tQpyNiNd6DsLA0tQleDAg6lHMqkIGZwsERa7WcdokHI=",
+      "ZhiMedia.UI.wasm": "sha256-WCFdyVkdWGWSAUJHNolFye51rovdZOG4zi62sgRJgO8=",
+      "ZhiMedia.Web.wasm": "sha256-GQvi33lF7cQ7ZhvGB8xveqgb6f+1KvyQ+RCorQcU+GQ=",
+      "ZhiMedia.Client.wasm": "sha256-1Wnf2gb54nsIdxBXR2j1PHSsVWy2zr1031nS0bfGQuA="
     }
   },
   "cacheBootResources": true,
