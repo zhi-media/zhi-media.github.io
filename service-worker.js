@@ -1,4 +1,4 @@
-/* Manifest version: ylI/omVM */
+/* Manifest version: VF7+HTCF */
 // Caution! Be sure you understand the caveats before publishing an application with
 // offline support. See https://aka.ms/blazor-offline-considerations
 
