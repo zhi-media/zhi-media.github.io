@@ -4,7 +4,8 @@
 <head>
 	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, shrink-to-fit=no, viewport-fit=cover">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, shrink-to-fit=no, viewport-fit=cover">
 	<meta name="color-scheme" content="light dark">
 
 	<title>Zhi Liang</title>
@@ -26,125 +27,46 @@
 		}
 
 		.transition-effect {
-			transition: opacity 0.5s ease; /* 这里的 0.5s 是动画持续时间，可以根据需要调整 */
+			transition: opacity 0.5s ease;
+			/* 这里的 0.5s 是动画持续时间，可以根据需要调整 */
 			opacity: 1;
 		}
 
-			.transition-effect.hidden {
-				opacity: 0;
-			}
+		.transition-effect.hidden {
+			opacity: 0;
+		}
 	</style>
 	<link href="lib/simplebar/simplebar.css" rel="stylesheet" />
 	<!-- Template CSS -->
 	<link class="css-lt" rel="stylesheet" href="./css/css-lt.css" media="(prefers-color-scheme: light)">
 	<link class="css-dk" rel="stylesheet" href="./css/css-dk.css" media="(prefers-color-scheme: dark)">
 
+	<!-- Theme Manager -->
+	<script src="js/theme-manager.js"></script>
 	<!-- Theme mode -->
 	<script>
-
-		// 获取用户代理
+		// 存储用户代理
 		var userAgent = navigator.userAgent;
-		// 存储用户代理到localStorage，使用'UserAgent'作为键
 		localStorage.setItem('UserAgent', userAgent);
-		// 在控制台输出用户代理
 		console.log('UserAgent:', userAgent);
-		console.log('UserAgent in LocalStorage:', localStorage.getItem("UserAgent"));
-
-		if (localStorage.getItem('color-scheme')) {
-			let scheme = localStorage.getItem('color-scheme');
-
-			console.log('localStorage.getItem: scheme = ', scheme);
-			console.log('scheme === \'light\' : ', scheme === 'light');
-			console.log('scheme === \'dark\' : ', scheme === '\"dark\"');
-
-			const LTCSS = document.querySelectorAll('link[class=css-lt]');
-			const DKCSS = document.querySelectorAll('link[class=css-dk]');
-
-			[...LTCSS].forEach((link) => {
-				//link.media = (scheme === 'light') ? 'all' : 'not screen';
-				link.media = (scheme === '1') ? 'all' : 'not screen';
-			});
-
-			[...DKCSS].forEach((link) => {
-				//link.media = (scheme === 'dark') ? 'all' : 'not screen';
-				link.media = (scheme === '0') ? 'all' : 'not screen';
-			});
+		// 主题切换函数 - 由 C# 通过 JSInterop 调用
+		window.setColorScheme = function (scheme, animated) {
+			console.log('setColorScheme called:', scheme, 'animated:', animated);
+			ThemeManager.setScheme(scheme, animated);
 		}
-
-
-		// 检查是否支持媒体查询
-		if (window.matchMedia) {
-			// 检查暗色模式
-			const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-			if (darkModeMediaQuery.matches) {
-				console.log('用户系统首选颜色方案为暗色模式（Dark Mode）。');
-			} else {
-				console.log('用户系统首选颜色方案为亮色模式（Light Mode）。');
-			}
-
-			// 添加事件监听器，以便在用户更改系统首选颜色方案时得到通知
-			darkModeMediaQuery.addListener((e) => {
-				if (e.matches) {
-					console.log('用户切换到暗色模式（Dark Mode）。');
-				} else {
-					console.log('用户切换到亮色模式（Light Mode）。');
-				}
-			});
-		} else {
-			console.log('该浏览器不支持媒体查询。');
-		}
-
+		// 获取系统暗色模式状态
 		window.getDarkModeStatus = function () {
-			// 在这里实现获取暗色模式状态的逻辑
-			// 返回一个布尔值，表示当前是否为暗色模式
-			// 可以使用 matchMedia 或其他方法来检测暗色模式状态
 			return window.matchMedia('(prefers-color-scheme: dark)').matches;
 		}
+		// 系统主题检测(调试用)
+		if (window.matchMedia) {
+			const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+			console.log('系统主题:', darkModeMediaQuery.matches ? 'Dark' : 'Light');
 
-		window.setColorScheme = function (scheme) {
-			console.log('scheme:', scheme);
-
-			const LTCSS = document.querySelectorAll('link[class=css-lt]');
-			const DKCSS = document.querySelectorAll('link[class=css-dk]');
-
-			[...LTCSS].forEach((link) => {
-				//link.media = (scheme === 'light') ? 'all' : 'not screen';
-				link.media = (scheme === '1') ? 'all' : 'not screen';
-			});
-
-			[...DKCSS].forEach((link) => {
-				//link.media = (scheme === 'dark') ? 'all' : 'not screen';
-				link.media = (scheme === '0') ? 'all' : 'not screen';
+			darkModeMediaQuery.addEventListener('change', (e) => {
+				console.log('系统主题切换到:', e.matches ? 'Dark' : 'Light');
 			});
 		}
-
-		//window.addAnimateAnimatedClass = (divId) => {
-		//	const div = document.getElementById(divId);
-		//	if (!div.classList.contains('animate__animated')) {
-		//		div.classList.add('animate__animated');
-		//	}
-		//};
-
-		//window.toggleVisibilityWithAnimation = (divId, isShown) => {
-		//	const div = document.getElementById(divId);
-
-		//	alert("ok");
-
-		//	if (isShown) {
-		//		div.classList.remove('animate__fadeOut');
-		//		div.classList.add('animate__fadeIn');
-		//		div.style.display = 'block';
-		//	} else {
-		//		div.classList.remove('animate__fadeIn');
-		//		div.classList.add('animate__fadeOut');
-		//		div.addEventListener('animationend', () => {
-		//			div.style.display = 'none';
-		//		}, { once: true });
-		//	}
-		//};
-
-
-
 	</script>
 
 	<!-- Original Begin -->

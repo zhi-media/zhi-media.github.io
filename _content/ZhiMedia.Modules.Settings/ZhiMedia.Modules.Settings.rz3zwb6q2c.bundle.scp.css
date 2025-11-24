@@ -1,0 +1,56 @@
+/* _content/ZhiMedia.Modules.Settings/Presentation/Components/ThemeSwitcher.razor.rz.scp.css */
+.theme-switcher[b-jkhjvawu11] {
+    padding: 1rem;
+    border-radius: 8px;
+    background: var(--surface-color, #fff);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.theme-switcher h3[b-jkhjvawu11] {
+    margin: 0 0 1rem 0;
+    font-size: 1.2rem;
+    color: var(--text-primary, #333);
+}
+
+.theme-options[b-jkhjvawu11] {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.theme-btn[b-jkhjvawu11] {
+    flex: 1;
+    padding: 0.75rem;
+    border: 2px solid var(--border-color, #e0e0e0);
+    border-radius: 6px;
+    background: var(--background-color, #fafafa);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.theme-btn:hover[b-jkhjvawu11] {
+    border-color: var(--primary-color, #007bff);
+    transform: translateY(-2px);
+}
+
+.theme-btn.active[b-jkhjvawu11] {
+    border-color: var(--primary-color, #007bff);
+    background: var(--primary-light, #e3f2fd);
+}
+
+.theme-btn .icon[b-jkhjvawu11] {
+    font-size: 1.5rem;
+}
+
+.theme-btn span:last-child[b-jkhjvawu11] {
+    font-size: 0.875rem;
+    color: var(--text-secondary, #666);
+}
+
+.theme-btn.active span:last-child[b-jkhjvawu11] {
+    color: var(--primary-color, #007bff);
+    font-weight: 600;
+}
