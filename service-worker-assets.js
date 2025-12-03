@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "x5Tb0T4p",
+  "version": "eUKS7cRU",
   "assets": [
     {
       "hash": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
@@ -582,39 +582,39 @@ self.assetsManifest = {
       "url": "_framework/YamlDotNet.wasm"
     },
     {
-      "hash": "sha256-NX9MSaTuZkjnYceoAmxC6DzOm2zYBwEFV4Zgqp91Y+Y=",
+      "hash": "sha256-LnLS7c0qL+pSrcest/XrVwUhF3geSKUW8ynCSMFkJ1Q=",
       "url": "_framework/ZhiMedia.Application.wasm"
     },
     {
-      "hash": "sha256-gJC+AuWdMg5QMVX4fbPqmACtuLvULpkwxjvbH+JTSE8=",
+      "hash": "sha256-RXFnOobQ2uYeKUJ9j9CtjUGNZV3+Zmybf93+dEPC3sc=",
       "url": "_framework/ZhiMedia.Client.wasm"
     },
     {
-      "hash": "sha256-rxxAnLfhRpmCi49T/lOD3rX6v8nGopRSlI3mTqNg650=",
+      "hash": "sha256-ONciMX8StqLb/K/A5xRWZCWizJAeuqKaII2qsrQndcQ=",
       "url": "_framework/ZhiMedia.Infrastructure.wasm"
     },
     {
-      "hash": "sha256-V9YC7u8rEJbYEsY8UdNA/O7ejTVrWJO0qbZHC+gFmPw=",
+      "hash": "sha256-ZE3PaSco4v0M7tPenWdXKx99SiEgz9UxFS9G7u1ZDEY=",
       "url": "_framework/ZhiMedia.Modules.Blog.wasm"
     },
     {
-      "hash": "sha256-3A2sTdiezN4go0EeUxh62kBbn2YITIJIJn5CqpGOg2s=",
+      "hash": "sha256-3kxYxH8s9XBEEPXo1zU2+ITuKbqX3bm6foltRqyWOgY=",
       "url": "_framework/ZhiMedia.Modules.Settings.wasm"
     },
     {
-      "hash": "sha256-GgReMF6b46EllJkXnI0tUFrKywRrnimJjGUomRjIFuE=",
+      "hash": "sha256-C3/BK35t8QbmwRP1+/CZfXuLzzhx1wCHftpINwX9BHk=",
       "url": "_framework/ZhiMedia.Shared.wasm"
     },
     {
-      "hash": "sha256-bu23c7Y/WA13diW4PEBrpAptnsxhY2tfXm1ChNdrXaM=",
+      "hash": "sha256-EhN1VbTLna3e5zGDgMi5ToY0aN41SghBrjWGfBb60JU=",
       "url": "_framework/ZhiMedia.UI.wasm"
     },
     {
-      "hash": "sha256-Ztkt+KVYnBDShDuMvPWYWTf/5agZs8R+adJ51rEaH+A=",
+      "hash": "sha256-7nj8T0vOoQlqGFNmAcTaOAqxeBTSHOa1/vBWXGc9LKs=",
       "url": "_framework/ZhiMedia.Web.wasm"
     },
     {
-      "hash": "sha256-jwQ19V8kWRb9wRLESl5BDeZdxIq+9Yk8n75OlhhTYFg=",
+      "hash": "sha256-iosGiwMpTQQClOSKZ6lGFEXWCzpHUuvcDiX2JQXuaq4=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -630,7 +630,7 @@ self.assetsManifest = {
       "url": "_framework/dotnet.native.js"
     },
     {
-      "hash": "sha256-j+pXGbg6byxz7EJZt0rQpfn9mcfDzfyoU3H5VAwnBRQ=",
+      "hash": "sha256-J3DQAvdbdYObHkjNtvh4YK+eQANZMnJOdhgm5DfF6J0=",
       "url": "_framework/dotnet.native.wasm"
     },
     {
